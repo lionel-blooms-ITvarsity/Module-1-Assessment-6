@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" >
+        <style>
+            body{
+                background-color: gray;
+            }
+            a{
+                text-decoration: none;
+                background-color: black;
+                color: white;
+                padding: 5px;
+            }
+            a:hover{
+                color: blue;
+            }
+            h1{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 50px;
+
+            }
+            p{
+                font-weight: 700;
+            }
+        </style>
+
+    </head>
+    <body>
+        <center>
+        <h1>Buy Now</h1>
+        <p>Please complete the form with your details to complete your order</p>
+        <br>
+        <label for="firstname">Firstname : </label><input type="firstname"><br/><br/>
+        <label for="lastname">Lastname : </label><input type="lastname"><br/><br/>
+        <label for="Address">Address : </label><input type="address"><br/><br/>
+        <label for="Credit">Credit Card Number : </label><input type="credit"><br/><br/>
+        <label for="Contact No:">Contact Number : </label><input type="cell"><br/><br/>
+
+        <br/>
+        <input type="radio" id="bible" name="item"><label for="bible">The Bible</label>
+        <input type="radio" id="watch" name="item"><label for="watch">The Watch</label>
+        <input type="radio" id="ring" name="item"><label for="ring">The Ring</label>
+        <input type="radio" id="necklace" name="item"><label for="necklace">The Necklace</label>
+        <input type="radio" id="bracelet" name="item"><label for="bracelet">The Bracelet</label><br/>
+        <label for="quality">Quantity : </label><input type="amount"><br/><br/>
+        <input type="button" value="Buy Now"><br/><br/>
+        <p>Please <a href="index.html">Click here</a>to go back to home page.</p>
+    </center>
+    </body>
+</html>
